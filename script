@@ -1,0 +1,493 @@
+--Made by AyeItzMexy/euphoria #3915
+local ScreenGui = Instance.new("ScreenGui")
+local Main = Instance.new("Frame")
+local Titles15 = Instance.new("Frame")
+local Noob = Instance.new("TextButton")
+local Lucky = Instance.new("TextButton")
+local Fearless = Instance.new("TextButton")
+local Savage = Instance.new("TextButton")
+local Rich = Instance.new("TextButton")
+local Cool = Instance.new("TextButton")
+local O_O = Instance.new("TextButton")
+local God = Instance.new("TextButton")
+local Evil = Instance.new("TextButton")
+local Unknown = Instance.new("TextButton")
+local Funny = Instance.new("TextButton")
+local Wink = Instance.new("TextButton")
+local King = Instance.new("TextButton")
+local Rebel = Instance.new("TextButton")
+local Warrior = Instance.new("TextButton")
+local Title = Instance.new("TextLabel")
+
+ScreenGui.Parent = game.CoreGui
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+ScreenGui.ResetOnSpawn = false
+
+Main.Name = "Main"
+Main.Parent = ScreenGui
+Main.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Main.Position = UDim2.new(0.392727286, 0, 0.205882356, 0)
+Main.Size = UDim2.new(0, 464, 0, 282)
+
+Titles15.Name = "Titles(15)"
+Titles15.Parent = Main
+Titles15.BackgroundColor3 = Color3.fromRGB(0, 0, 127)
+Titles15.BorderColor3 = Color3.fromRGB(255, 255, 255)
+Titles15.Position = UDim2.new(0, 0, 0.10766805, 0)
+Titles15.Size = UDim2.new(0, 464, 0, 254)
+
+Noob.Name = "Noob"
+Noob.Parent = Titles15
+Noob.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Noob.BorderColor3 = Color3.fromRGB(29, 29, 29)
+Noob.Size = UDim2.new(0, 155, 0, 50)
+Noob.Font = Enum.Font.SourceSans
+Noob.Text = "NOOB"
+Noob.TextColor3 = Color3.fromRGB(0, 0, 0)
+Noob.TextScaled = true
+Noob.TextSize = 14.000
+Noob.TextWrapped = true
+
+Lucky.Name = "Lucky"
+Lucky.Parent = Titles15
+Lucky.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Lucky.Position = UDim2.new(0, 0, 0.200000018, 0)
+Lucky.Size = UDim2.new(0, 155, 0, 50)
+Lucky.Font = Enum.Font.SourceSans
+Lucky.Text = "Lucky"
+Lucky.TextColor3 = Color3.fromRGB(0, 0, 0)
+Lucky.TextScaled = true
+Lucky.TextSize = 14.000
+Lucky.TextWrapped = true
+
+Fearless.Name = "Fearless"
+Fearless.Parent = Titles15
+Fearless.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Fearless.Position = UDim2.new(0, 0, 0.400000006, 0)
+Fearless.Size = UDim2.new(0, 155, 0, 50)
+Fearless.Font = Enum.Font.SourceSans
+Fearless.Text = "Fearless"
+Fearless.TextColor3 = Color3.fromRGB(0, 0, 0)
+Fearless.TextScaled = true
+Fearless.TextSize = 14.000
+Fearless.TextWrapped = true
+
+Savage.Name = "Savage"
+Savage.Parent = Titles15
+Savage.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Savage.Position = UDim2.new(0, 0, 0.600000024, 0)
+Savage.Size = UDim2.new(0, 155, 0, 50)
+Savage.Font = Enum.Font.SourceSans
+Savage.Text = "Savage"
+Savage.TextColor3 = Color3.fromRGB(0, 0, 0)
+Savage.TextScaled = true
+Savage.TextSize = 18.000
+Savage.TextWrapped = true
+
+Rich.Name = "Rich"
+Rich.Parent = Titles15
+Rich.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Rich.Position = UDim2.new(0, 0, 0.800000012, 0)
+Rich.Size = UDim2.new(0, 155, 0, 50)
+Rich.Font = Enum.Font.SourceSans
+Rich.Text = "Rich"
+Rich.TextColor3 = Color3.fromRGB(0, 0, 0)
+Rich.TextScaled = true
+Rich.TextSize = 14.000
+Rich.TextWrapped = true
+
+Cool.Name = "Cool"
+Cool.Parent = Titles15
+Cool.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Cool.Position = UDim2.new(0.331586033, 0, 0, 0)
+Cool.Size = UDim2.new(0, 155, 0, 50)
+Cool.Font = Enum.Font.SourceSans
+Cool.Text = "Cool"
+Cool.TextColor3 = Color3.fromRGB(0, 0, 0)
+Cool.TextScaled = true
+Cool.TextSize = 18.000
+Cool.TextWrapped = true
+
+O_O.Name = "O_O"
+O_O.Parent = Titles15
+O_O.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+O_O.Position = UDim2.new(0.331586033, 0, 0.200000003, 0)
+O_O.Size = UDim2.new(0, 155, 0, 50)
+O_O.Font = Enum.Font.SourceSans
+O_O.Text = "O_O"
+O_O.TextColor3 = Color3.fromRGB(0, 0, 0)
+O_O.TextScaled = true
+O_O.TextSize = 14.000
+O_O.TextWrapped = true
+
+God.Name = "God"
+God.Parent = Titles15
+God.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+God.Position = UDim2.new(0.331586033, 0, 0.800000012, 0)
+God.Size = UDim2.new(0, 155, 0, 50)
+God.Font = Enum.Font.SourceSans
+God.Text = "God"
+God.TextColor3 = Color3.fromRGB(0, 0, 0)
+God.TextScaled = true
+God.TextSize = 14.000
+God.TextWrapped = true
+
+Evil.Name = "Evil"
+Evil.Parent = Titles15
+Evil.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Evil.Position = UDim2.new(0.331586033, 0, 0.600000024, 0)
+Evil.Size = UDim2.new(0, 155, 0, 50)
+Evil.Font = Enum.Font.SourceSans
+Evil.Text = "Evil"
+Evil.TextColor3 = Color3.fromRGB(0, 0, 0)
+Evil.TextScaled = true
+Evil.TextSize = 14.000
+Evil.TextWrapped = true
+
+Unknown.Name = "Unknown"
+Unknown.Parent = Titles15
+Unknown.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Unknown.Position = UDim2.new(0.331586033, 0, 0.400000006, 0)
+Unknown.Size = UDim2.new(0, 155, 0, 50)
+Unknown.Font = Enum.Font.SourceSans
+Unknown.Text = "Unknown"
+Unknown.TextColor3 = Color3.fromRGB(0, 0, 0)
+Unknown.TextScaled = true
+Unknown.TextSize = 14.000
+Unknown.TextWrapped = true
+
+Funny.Name = "Funny"
+Funny.Parent = Titles15
+Funny.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Funny.Position = UDim2.new(0.664919376, 0, 0, 0)
+Funny.Size = UDim2.new(0, 155, 0, 50)
+Funny.Font = Enum.Font.SourceSans
+Funny.Text = "Funny"
+Funny.TextColor3 = Color3.fromRGB(0, 0, 0)
+Funny.TextScaled = true
+Funny.TextSize = 14.000
+Funny.TextWrapped = true
+
+Wink.Name = "Wink"
+Wink.Parent = Titles15
+Wink.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Wink.Position = UDim2.new(0.664919376, 0, 0.800000012, 0)
+Wink.Size = UDim2.new(0, 155, 0, 50)
+Wink.Font = Enum.Font.SourceSans
+Wink.Text = ";)"
+Wink.TextColor3 = Color3.fromRGB(0, 0, 0)
+Wink.TextScaled = true
+Wink.TextSize = 14.000
+Wink.TextWrapped = true
+
+King.Name = "King"
+King.Parent = Titles15
+King.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+King.Position = UDim2.new(0.664919376, 0, 0.600000024, 0)
+King.Size = UDim2.new(0, 155, 0, 50)
+King.Font = Enum.Font.SourceSans
+King.Text = "King"
+King.TextColor3 = Color3.fromRGB(0, 0, 0)
+King.TextScaled = true
+King.TextSize = 14.000
+King.TextWrapped = true
+
+Rebel.Name = "Rebel"
+Rebel.Parent = Titles15
+Rebel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Rebel.Position = UDim2.new(0.664919376, 0, 0.400000006, 0)
+Rebel.Size = UDim2.new(0, 155, 0, 50)
+Rebel.Font = Enum.Font.SourceSans
+Rebel.Text = "Rebel"
+Rebel.TextColor3 = Color3.fromRGB(0, 0, 0)
+Rebel.TextScaled = true
+Rebel.TextSize = 14.000
+Rebel.TextWrapped = true
+
+Warrior.Name = "Warrior"
+Warrior.Parent = Titles15
+Warrior.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Warrior.Position = UDim2.new(0.664919376, 0, 0.200000003, 0)
+Warrior.Size = UDim2.new(0, 155, 0, 50)
+Warrior.Font = Enum.Font.SourceSans
+Warrior.Text = "Warrior"
+Warrior.TextColor3 = Color3.fromRGB(0, 0, 0)
+Warrior.TextScaled = true
+Warrior.TextSize = 14.000
+Warrior.TextWrapped = true
+
+Title.Name = "Title"
+Title.Parent = Main
+Title.BackgroundColor3 = Color3.fromRGB(0, 0, 255)
+Title.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Title.Size = UDim2.new(0, 463, 0, 30)
+Title.Font = Enum.Font.ArialBold
+Title.Text = "Justice Jungle Title GUI"
+Title.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title.TextSize = 18.000
+
+-- Scripts:
+
+local function AAPS_fake_script() -- Noob.Script 
+	local script = Instance.new('Script', Noob)
+
+	Noob.MouseButton1Down:connect(function()
+		local args = {
+			[1] = "Noob",
+			[2] = "Equip"
+		}
+	
+		game:GetService("ReplicatedStorage").Remotes.Title:InvokeServer(unpack(args))
+	end)
+end
+coroutine.wrap(AAPS_fake_script)()
+local function LGQUW_fake_script() -- Lucky.Script 
+	local script = Instance.new('Script', Lucky)
+
+	Lucky.MouseButton1Down:connect(function()
+		local args = {
+			[1] = "Lucky",
+			[2] = "Equip"
+		}
+	
+		game:GetService("ReplicatedStorage").Remotes.Title:InvokeServer(unpack(args))
+	end)
+end
+coroutine.wrap(LGQUW_fake_script)()
+local function VKKQFX_fake_script() -- Fearless.Script 
+	local script = Instance.new('Script', Fearless)
+
+	Fearless.MouseButton1Down:connect(function()
+		local args = {
+			[1] = "Fearless",
+			[2] = "Equip"
+		}
+	
+		game:GetService("ReplicatedStorage").Remotes.Title:InvokeServer(unpack(args))
+	end)
+end
+coroutine.wrap(VKKQFX_fake_script)()
+local function LQFVAY_fake_script() -- Savage.Script 
+	local script = Instance.new('Script', Savage)
+
+	Savage.MouseButton1Down:connect(function()
+		local args = {
+			[1] = "Savage",
+			[2] = "Equip"
+		}
+	
+		game:GetService("ReplicatedStorage").Remotes.Title:InvokeServer(unpack(args))
+	end)
+end
+coroutine.wrap(LQFVAY_fake_script)()
+local function FURHUSZ_fake_script() -- Rich.Script 
+	local script = Instance.new('Script', Rich)
+
+	Rich.MouseButton1Down:connect(function()
+		local args = {
+			[1] = "Rich",
+			[2] = "Equip"
+		}
+	
+		game:GetService("ReplicatedStorage").Remotes.Title:InvokeServer(unpack(args))
+	end)
+end
+coroutine.wrap(FURHUSZ_fake_script)()
+local function RGLSHZ_fake_script() -- Cool.Script 
+	local script = Instance.new('Script', Cool)
+
+	Cool.MouseButton1Down:connect(function()
+		local args = {
+			[1] = "Cool",
+			[2] = "Equip"
+		}
+	
+		game:GetService("ReplicatedStorage").Remotes.Title:InvokeServer(unpack(args))
+	end)
+end
+coroutine.wrap(RGLSHZ_fake_script)()
+local function YUBSU_fake_script() -- O_O.Script 
+	local script = Instance.new('Script', O_O)
+
+	O_O.MouseButton1Down:connect(function()
+		local args = {
+			[1] = "O_O",
+			[2] = "Equip"
+		}
+	
+		game:GetService("ReplicatedStorage").Remotes.Title:InvokeServer(unpack(args))
+	end)
+end
+coroutine.wrap(YUBSU_fake_script)()
+local function JMWXKI_fake_script() -- God.Script 
+	local script = Instance.new('Script', God)
+
+	God.MouseButton1Down:connect(function()
+		local args = {
+			[1] = "God",
+			[2] = "Equip"
+		}
+	
+		game:GetService("ReplicatedStorage").Remotes.Title:InvokeServer(unpack(args))
+	end)
+end
+coroutine.wrap(JMWXKI_fake_script)()
+local function GBBQN_fake_script() -- Evil.Script 
+	local script = Instance.new('Script', Evil)
+
+	Evil.MouseButton1Down:connect(function()
+		local args = {
+			[1] = "Evil",
+			[2] = "Equip"
+		}
+	
+		game:GetService("ReplicatedStorage").Remotes.Title:InvokeServer(unpack(args))
+	end)
+end
+coroutine.wrap(GBBQN_fake_script)()
+local function INFTJ_fake_script() -- Unknown.Script 
+	local script = Instance.new('Script', Unknown)
+
+	Unknown.MouseButton1Down:connect(function()
+		local args = {
+			[1] = "Unknown",
+			[2] = "Equip"
+		}
+	
+		game:GetService("ReplicatedStorage").Remotes.Title:InvokeServer(unpack(args))
+	end)
+end
+coroutine.wrap(INFTJ_fake_script)()
+local function EPNAEGN_fake_script() -- Funny.Script 
+	local script = Instance.new('Script', Funny)
+
+	Funny.MouseButton1Down:connect(function()
+		local args = {
+			[1] = "Funny",
+			[2] = "Equip"
+		}
+	
+		game:GetService("ReplicatedStorage").Remotes.Title:InvokeServer(unpack(args))
+	end)
+end
+coroutine.wrap(EPNAEGN_fake_script)()
+local function MXWFNQC_fake_script() -- Wink.Script 
+	local script = Instance.new('Script', Wink)
+
+	Wink.MouseButton1Down:connect(function()
+		local args = {
+			[1] = ";)",
+			[2] = "Equip"
+		}
+	
+		game:GetService("ReplicatedStorage").Remotes.Title:InvokeServer(unpack(args))
+	end)
+end
+coroutine.wrap(MXWFNQC_fake_script)()
+local function GGPOP_fake_script() -- King.Script 
+	local script = Instance.new('Script', King)
+
+	King.MouseButton1Down:connect(function()
+		local args = {
+			[1] = "King",
+			[2] = "Equip"
+		}
+	
+		game:GetService("ReplicatedStorage").Remotes.Title:InvokeServer(unpack(args))
+	end)
+end
+coroutine.wrap(GGPOP_fake_script)()
+local function ZDOWCJM_fake_script() -- Rebel.Script 
+	local script = Instance.new('Script', Rebel)
+
+	Rebel.MouseButton1Down:connect(function()
+		local args = {
+			[1] = "Rebel",
+			[2] = "Equip"
+		}
+	
+		game:GetService("ReplicatedStorage").Remotes.Title:InvokeServer(unpack(args))
+	end)
+end
+coroutine.wrap(ZDOWCJM_fake_script)()
+local function QWWC_fake_script() -- Warrior.Script 
+	local script = Instance.new('Script', Warrior)
+
+	Warrior.MouseButton1Down:connect(function()
+		local args = {
+			[1] = "Warrior",
+			[2] = "Equip"
+		}
+	
+		game:GetService("ReplicatedStorage").Remotes.Title:InvokeServer(unpack(args))
+	end)
+end
+coroutine.wrap(QWWC_fake_script)()
+
+local function DragScript()
+	local script = Instance.new('LocalScript', Main)
+
+	local UIS = game:GetService("UserInputService")
+	function draggable(Main)
+		dragToggle = nil
+		local dragSpeed = 3
+		dragInput = nil
+		dragStart = nil
+		local dragPos = nil
+		function updateInput(input)
+			local Delta = input.Position - dragStart
+			local Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + Delta.X, startPos.Y.Scale, startPos.Y.Offset + Delta.Y)
+			game:GetService("TweenService"):Create(Main, TweenInfo.new(0.25), {Position = Position}):Play()
+		end
+
+		Main.InputBegan:Connect(function(input)
+			if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) and UIS:GetFocusedTextBox() == nil then
+				dragToggle = true
+				dragStart = input.Position
+				startPos = Main.Position
+				input.Changed:Connect(function()
+					if input.UserInputState == Enum.UserInputState.End then
+						dragToggle = false
+					end
+				end)
+			end
+		end)
+
+		Main.InputChanged:Connect(function(input)
+			if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+				dragInput = input
+			end
+		end)
+		game:GetService("UserInputService").InputChanged:Connect(function(input)
+			if input == dragInput and dragToggle then
+				updateInput(input)
+			end
+		end)
+	end
+	draggable(script.Parent)
+end
+
+coroutine.wrap(DragScript)()
+
+local function CloseScript()
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	local plrs = game:GetService("Players")
+	local Main = script.Parent
+	local open = false
+	local plr = plrs.LocalPlayer
+	local mouse = plr:GetMouse()
+	function press(key)
+		if (key == "v") then
+			if (open == true) then
+				Main.Enabled = false
+				open = false
+			elseif (open == false) then
+				Main.Enabled = true
+				open = true
+			end
+		end
+	end
+	mouse.KeyDown:Connect(press)
+end
+coroutine.wrap(CloseScript)()
